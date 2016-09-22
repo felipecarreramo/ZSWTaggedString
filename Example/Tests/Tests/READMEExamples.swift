@@ -44,7 +44,7 @@ class READMEExamplesSpec: QuickSpec { override func spec() {
         let story1 = Story(type: .One, name: "on<e")
         let story2 = Story(type: .Two, name: "tw<o")
         
-        func storyWrap(story: Story) -> String {
+        func storyWrap(_ story: Story) -> String {
             // You should separate data-level tags from the localized strings
             // so you can iterate on their definition without the .strings changing
             // Ideally you'd place this on the Story class itself.

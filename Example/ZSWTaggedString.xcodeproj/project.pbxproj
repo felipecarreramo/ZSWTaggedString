@@ -17,10 +17,10 @@
 		11BF87761A9A9F870067E208 /* OCMArg+ZSWCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BF87751A9A9F870067E208 /* OCMArg+ZSWCapture.m */; };
 		11FF5D7B1C1CD13600E4A925 /* ZSWTaggedStringOptionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FF5D7A1C1CD13600E4A925 /* ZSWTaggedStringOptionsSpec.swift */; };
 		11FF5D7D1C1CDFA600E4A925 /* READMEExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FF5D7C1C1CDFA600E4A925 /* READMEExamples.swift */; };
+		5B5B5159AC90E80D5A77E17B /* Pods_ZSWTaggedString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E5215D83D67BFECB811313 /* Pods_ZSWTaggedString.framework */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		ADD52A5ACBF488E22C5E53A9 /* Pods_ZSWTaggedString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F239F27D53397EE3925329 /* Pods_ZSWTaggedString.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +37,6 @@
 		11D5C7231C1288710009C165 /* ZSWTaggedString-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZSWTaggedString-Bridging-Header.h"; sourceTree = "<group>"; };
 		11FF5D7A1C1CD13600E4A925 /* ZSWTaggedStringOptionsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSWTaggedStringOptionsSpec.swift; sourceTree = "<group>"; };
 		11FF5D7C1C1CDFA600E4A925 /* READMEExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = READMEExamples.swift; sourceTree = "<group>"; };
-		1C0C24AC1700D5EF79DDDB40 /* Pods-ZSWTaggedString.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSWTaggedString.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZSWTaggedString/Pods-ZSWTaggedString.debug.xcconfig"; sourceTree = "<group>"; };
-		29F239F27D53397EE3925329 /* Pods_ZSWTaggedString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSWTaggedString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZSWTaggedString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSWTaggedString.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,9 +45,11 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7E8EB9502F605ED142F2C098 /* Pods-ZSWTaggedString.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSWTaggedString.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZSWTaggedString/Pods-ZSWTaggedString.release.xcconfig"; sourceTree = "<group>"; };
+		7575335462F708C2B38AF2B4 /* Pods-ZSWTaggedString.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSWTaggedString.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZSWTaggedString/Pods-ZSWTaggedString.debug.xcconfig"; sourceTree = "<group>"; };
+		99EC266DBE8B6D81E9FB5147 /* Pods-ZSWTaggedString.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSWTaggedString.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZSWTaggedString/Pods-ZSWTaggedString.release.xcconfig"; sourceTree = "<group>"; };
 		D0D425EF9F44A4E4AB461CF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D9ED01DA6597908E843A850E /* ZSWTaggedString.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZSWTaggedString.podspec; path = ../ZSWTaggedString.podspec; sourceTree = "<group>"; };
+		E3E5215D83D67BFECB811313 /* Pods_ZSWTaggedString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSWTaggedString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F68D9D995B94E741197365 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +61,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				ADD52A5ACBF488E22C5E53A9 /* Pods_ZSWTaggedString.framework in Frameworks */,
+				5B5B5159AC90E80D5A77E17B /* Pods_ZSWTaggedString.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +102,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				E4597F6CEFFE1A0884F08651 /* Pods */,
+				91E4F86CFB80176854395186 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,7 +122,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				29F239F27D53397EE3925329 /* Pods_ZSWTaggedString.framework */,
+				E3E5215D83D67BFECB811313 /* Pods_ZSWTaggedString.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,11 +156,11 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		E4597F6CEFFE1A0884F08651 /* Pods */ = {
+		91E4F86CFB80176854395186 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1C0C24AC1700D5EF79DDDB40 /* Pods-ZSWTaggedString.debug.xcconfig */,
-				7E8EB9502F605ED142F2C098 /* Pods-ZSWTaggedString.release.xcconfig */,
+				7575335462F708C2B38AF2B4 /* Pods-ZSWTaggedString.debug.xcconfig */,
+				99EC266DBE8B6D81E9FB5147 /* Pods-ZSWTaggedString.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -172,12 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ZSWTaggedString" */;
 			buildPhases = (
-				164B6F57C9BC3BE288EF35AE /* Check Pods Manifest.lock */,
+				5BE763607195812DAAB1945B /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				7404DC10513791C9E5DA009A /* Copy Pods Resources */,
-				E03E9FBF46D06A9269732F32 /* Embed Pods Frameworks */,
+				E2F9A6C1E520ED1FA77AE14E /* [CP] Embed Pods Frameworks */,
+				18397ECF48CD1A465B1E16C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,10 +196,11 @@
 			attributes = {
 				CLASSPREFIX = ZSW;
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Zachary West";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0800;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -233,29 +234,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		164B6F57C9BC3BE288EF35AE /* Check Pods Manifest.lock */ = {
+		18397ECF48CD1A465B1E16C3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		7404DC10513791C9E5DA009A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,14 +249,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZSWTaggedString/Pods-ZSWTaggedString-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E03E9FBF46D06A9269732F32 /* Embed Pods Frameworks */ = {
+		5BE763607195812DAAB1945B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2F9A6C1E520ED1FA77AE14E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,14 +315,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -354,13 +360,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -369,6 +380,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -376,8 +388,9 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C0C24AC1700D5EF79DDDB40 /* Pods-ZSWTaggedString.debug.xcconfig */;
+			baseConfigurationReference = 7575335462F708C2B38AF2B4 /* Pods-ZSWTaggedString.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Supporting Files/Tests-Prefix.pch";
@@ -391,10 +404,12 @@
 				);
 				INFOPLIST_FILE = "Tests/Supporting Files/Tests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Tests/ZSWTaggedString-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -402,8 +417,9 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E8EB9502F605ED142F2C098 /* Pods-ZSWTaggedString.release.xcconfig */;
+			baseConfigurationReference = 99EC266DBE8B6D81E9FB5147 /* Pods-ZSWTaggedString.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Supporting Files/Tests-Prefix.pch";
@@ -413,9 +429,11 @@
 				);
 				INFOPLIST_FILE = "Tests/Supporting Files/Tests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Tests/ZSWTaggedString-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
