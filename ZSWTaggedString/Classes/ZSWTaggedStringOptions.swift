@@ -23,7 +23,7 @@ extension ZSWTaggedStringOptions {
      - Returns: The `NSAttributedString` attributes you wish to be applied for the tag.
      
      */
-    public typealias DynamicAttributes = (tagName: String, tagAttributes: [String: AnyObject], existingStringAttributes: [String: AnyObject]) -> [String: AnyObject]
+    public typealias DynamicAttributes = (_ tagName: String, _ tagAttributes: [String: Any], _ existingStringAttributes: [String: Any]) -> [String: Any]
     
     /**
      Attributes to be applied to an attributed string.
