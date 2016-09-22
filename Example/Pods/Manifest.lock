@@ -1,8 +1,8 @@
 PODS:
   - Expecta (1.0.5)
-  - Nimble (5.0.0)
+  - Nimble (3.0.0)
   - OCMock (3.2)
-  - Quick (0.9.3)
+  - Quick (0.8.0)
   - Specta (1.0.5)
   - ZSWTaggedString (2.0):
     - ZSWTaggedString/Core (= 2.0)
@@ -25,9 +25,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Nimble: 56fc9f5020effa2206de22c3dd910f4fb011b92f
+  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
   OCMock: 28def049ef47f996b515a8eeea958be7ccab2dbb
-  Quick: 13a2a2b19a5d8e3ed4fd0c36ee46597fd77ebf71
+  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
   ZSWTaggedString: 7509ed8e246f1c706959b9d6b5410d230fed3bb0
 
